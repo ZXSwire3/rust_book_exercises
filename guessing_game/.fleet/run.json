@@ -1,0 +1,26 @@
+{
+    "configurations": [
+        {
+            "type": "cargo",
+            "name": "guessing_game_run",
+            "cargoArgs": ["run"],
+            "executableArgs": ["1","2","3"],
+        },
+        {
+            "type": "cargo",
+            "name": "guessing_game_build",
+            "cargoArgs": ["build"],
+        },
+        {
+            "type": "cargo",
+            "name": "guessing_game_check",
+            "cargoArgs": ["check"],
+        },
+        {
+            "type": "cargo",
+            "name": "guessing_game_test",
+            "cargoArgs": ["test"],
+            "executableArgs": ["1","2","3"],
+        },
+    ]
+}
